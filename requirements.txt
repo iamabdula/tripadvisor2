@@ -1,0 +1,12 @@
+# requirements.txt
+
+# Web Scraping and Automation
+selenium==4.1.0
+
+# Data Manipulation and Processing
+csvkit==1.0.6
+openpyxl==3.0.12
+
+
+# For threading
+threading2==2.4.0

@@ -1,0 +1,17 @@
+# html locators file for xpath and css selectors of Tripadvisor website
+class Locators:
+    WHERE_TO = "//h1[contains(., 'Where to')]"
+    HOME_SEARCH_FILTER_INPUT_FIELD = "//input[@placeholder='Places to go, things to do, hotels...']"
+    SEARCH_RESULT_PAGE_HEADING = "//div[text()='Top Restaurants in New York City']"
+    NAME_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div/h1"
+    ADDRESS_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div[3]/span[1]/span/a"
+    CONTACT_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div[3]/span[2]/span/span[2]/a"
+    WEBSITE_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div[3]/span[3]/span/a"
+    RATINGS_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div[2]/span[1]/a"
+    RANKING_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div[2]/span[2]/a/span/b/span"
+    CUISINE_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div[2]/span[3]"
+    REVIEWS_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div[2]/span[1]/a/span"
+    OPENING_HOURS_XPATH = ".//div[@id='taplc_top_info_0']/div/div/div[3]/span[5]/div/span/span/span[2]"
+    PAGE_IETM_LINK_XPATH = ".//div[contains(@data-test, '_list_item')]/div/div/div/span/a"
+    SEARCH_FIELD_XPATH = ".//input[@name='q']"
+    NEXT_PAGE_BUTTON_XPATH = ".//a[@aria-label='Next page']"
